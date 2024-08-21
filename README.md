@@ -1,1 +1,1 @@
-![Simulator Screenshot - iPhone 15 - 2024-08-21 at 17 41 51](https://github.com/user-attachments/assets/26d428d7-15fb-460b-9581-c7512e86fe2d)
+![Simulator Screenshot - iPhone 15 - 2024-08-21 at 17 41 51 - Moyenne](https://github.com/user-attachments/assets/08dadf52-b15d-43f0-910e-4ce5df13f11c)
