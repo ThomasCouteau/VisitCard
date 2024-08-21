@@ -11,27 +11,7 @@
 		E975DB032C6BEEB8000B24AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E975DB022C6BEEB8000B24AA /* ContentView.swift */; };
 		E975DB052C6BEEB9000B24AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E975DB042C6BEEB9000B24AA /* Assets.xcassets */; };
 		E975DB092C6BEEB9000B24AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E975DB082C6BEEB9000B24AA /* Preview Assets.xcassets */; };
-		E975DB132C6BEEB9000B24AA /* VisitCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E975DB122C6BEEB9000B24AA /* VisitCardTests.swift */; };
-		E975DB1D2C6BEEB9000B24AA /* VisitCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E975DB1C2C6BEEB9000B24AA /* VisitCardUITests.swift */; };
-		E975DB1F2C6BEEB9000B24AA /* VisitCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E975DB1E2C6BEEB9000B24AA /* VisitCardUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E975DB0F2C6BEEB9000B24AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E975DAF52C6BEEB8000B24AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E975DAFC2C6BEEB8000B24AA;
-			remoteInfo = VisitCard;
-		};
-		E975DB192C6BEEB9000B24AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E975DAF52C6BEEB8000B24AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E975DAFC2C6BEEB8000B24AA;
-			remoteInfo = VisitCard;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E975DAFD2C6BEEB8000B24AA /* VisitCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisitCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,29 +20,10 @@
 		E975DB042C6BEEB9000B24AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E975DB062C6BEEB9000B24AA /* VisitCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VisitCard.entitlements; sourceTree = "<group>"; };
 		E975DB082C6BEEB9000B24AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E975DB0E2C6BEEB9000B24AA /* VisitCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E975DB122C6BEEB9000B24AA /* VisitCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitCardTests.swift; sourceTree = "<group>"; };
-		E975DB182C6BEEB9000B24AA /* VisitCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E975DB1C2C6BEEB9000B24AA /* VisitCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitCardUITests.swift; sourceTree = "<group>"; };
-		E975DB1E2C6BEEB9000B24AA /* VisitCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E975DAFA2C6BEEB8000B24AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E975DB0B2C6BEEB9000B24AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E975DB152C6BEEB9000B24AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				E975DAFF2C6BEEB8000B24AA /* VisitCard */,
-				E975DB112C6BEEB9000B24AA /* VisitCardTests */,
-				E975DB1B2C6BEEB9000B24AA /* VisitCardUITests */,
 				E975DAFE2C6BEEB8000B24AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				E975DAFD2C6BEEB8000B24AA /* VisitCard.app */,
-				E975DB0E2C6BEEB9000B24AA /* VisitCardTests.xctest */,
-				E975DB182C6BEEB9000B24AA /* VisitCardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,23 +69,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E975DB112C6BEEB9000B24AA /* VisitCardTests */ = {
-			isa = PBXGroup;
-			children = (
-				E975DB122C6BEEB9000B24AA /* VisitCardTests.swift */,
-			);
-			path = VisitCardTests;
-			sourceTree = "<group>";
-		};
-		E975DB1B2C6BEEB9000B24AA /* VisitCardUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E975DB1C2C6BEEB9000B24AA /* VisitCardUITests.swift */,
-				E975DB1E2C6BEEB9000B24AA /* VisitCardUITestsLaunchTests.swift */,
-			);
-			path = VisitCardUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,42 +89,6 @@
 			productReference = E975DAFD2C6BEEB8000B24AA /* VisitCard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E975DB0D2C6BEEB9000B24AA /* VisitCardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E975DB252C6BEEB9000B24AA /* Build configuration list for PBXNativeTarget "VisitCardTests" */;
-			buildPhases = (
-				E975DB0A2C6BEEB9000B24AA /* Sources */,
-				E975DB0B2C6BEEB9000B24AA /* Frameworks */,
-				E975DB0C2C6BEEB9000B24AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E975DB102C6BEEB9000B24AA /* PBXTargetDependency */,
-			);
-			name = VisitCardTests;
-			productName = VisitCardTests;
-			productReference = E975DB0E2C6BEEB9000B24AA /* VisitCardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E975DB172C6BEEB9000B24AA /* VisitCardUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E975DB282C6BEEB9000B24AA /* Build configuration list for PBXNativeTarget "VisitCardUITests" */;
-			buildPhases = (
-				E975DB142C6BEEB9000B24AA /* Sources */,
-				E975DB152C6BEEB9000B24AA /* Frameworks */,
-				E975DB162C6BEEB9000B24AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E975DB1A2C6BEEB9000B24AA /* PBXTargetDependency */,
-			);
-			name = VisitCardUITests;
-			productName = VisitCardUITests;
-			productReference = E975DB182C6BEEB9000B24AA /* VisitCardUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,14 +101,6 @@
 				TargetAttributes = {
 					E975DAFC2C6BEEB8000B24AA = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					E975DB0D2C6BEEB9000B24AA = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = E975DAFC2C6BEEB8000B24AA;
-					};
-					E975DB172C6BEEB9000B24AA = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = E975DAFC2C6BEEB8000B24AA;
 					};
 				};
 			};
@@ -222,8 +118,6 @@
 			projectRoot = "";
 			targets = (
 				E975DAFC2C6BEEB8000B24AA /* VisitCard */,
-				E975DB0D2C6BEEB9000B24AA /* VisitCardTests */,
-				E975DB172C6BEEB9000B24AA /* VisitCardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +129,6 @@
 			files = (
 				E975DB092C6BEEB9000B24AA /* Preview Assets.xcassets in Resources */,
 				E975DB052C6BEEB9000B24AA /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E975DB0C2C6BEEB9000B24AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E975DB162C6BEEB9000B24AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,37 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E975DB0A2C6BEEB9000B24AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E975DB132C6BEEB9000B24AA /* VisitCardTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E975DB142C6BEEB9000B24AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E975DB1F2C6BEEB9000B24AA /* VisitCardUITestsLaunchTests.swift in Sources */,
-				E975DB1D2C6BEEB9000B24AA /* VisitCardUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E975DB102C6BEEB9000B24AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E975DAFC2C6BEEB8000B24AA /* VisitCard */;
-			targetProxy = E975DB0F2C6BEEB9000B24AA /* PBXContainerItemProxy */;
-		};
-		E975DB1A2C6BEEB9000B24AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E975DAFC2C6BEEB8000B24AA /* VisitCard */;
-			targetProxy = E975DB192C6BEEB9000B24AA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E975DB202C6BEEB9000B24AA /* Debug */ = {
@@ -483,92 +333,6 @@
 			};
 			name = Release;
 		};
-		E975DB262C6BEEB9000B24AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.VisitCardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisitCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisitCard";
-			};
-			name = Debug;
-		};
-		E975DB272C6BEEB9000B24AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.VisitCardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisitCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisitCard";
-			};
-			name = Release;
-		};
-		E975DB292C6BEEB9000B24AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.VisitCardUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VisitCard;
-			};
-			name = Debug;
-		};
-		E975DB2A2C6BEEB9000B24AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.VisitCardUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VisitCard;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -586,24 +350,6 @@
 			buildConfigurations = (
 				E975DB232C6BEEB9000B24AA /* Debug */,
 				E975DB242C6BEEB9000B24AA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E975DB252C6BEEB9000B24AA /* Build configuration list for PBXNativeTarget "VisitCardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E975DB262C6BEEB9000B24AA /* Debug */,
-				E975DB272C6BEEB9000B24AA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E975DB282C6BEEB9000B24AA /* Build configuration list for PBXNativeTarget "VisitCardUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E975DB292C6BEEB9000B24AA /* Debug */,
-				E975DB2A2C6BEEB9000B24AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
